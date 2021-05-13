@@ -38,6 +38,8 @@ echo source ~/powerlevel9k/powerlevel9k.zsh-theme >> ${ZDOTDIR:-$HOME}/.zshrc
 apt-get install autojump
 
 echo '[[ -s ~/.autojump/etc/profile.d/autojump.zsh ]] && . ~/.autojump/etc/profile.d/autojump.zsh' >> ${ZDOTDIR:-$HOME}/.zshrc
+
+echo source /usr/share/autojump/autojump.zsh >> ${ZDOTDIR:-$HOME}/.zshrc
 ###syntax-hightlignting
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-${ZDOTDIR:-$HOME}/.oh-my-zsh/custom}/plugins/zsh-syntax-highlt
 
